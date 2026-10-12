@@ -1,0 +1,3 @@
+ALTER TABLE movies
+    ADD COLUMN tmdb_id BIGINT UNIQUE,
+    ADD COLUMN tmdb_synced_at TIMESTAMP WITH TIME ZONE;

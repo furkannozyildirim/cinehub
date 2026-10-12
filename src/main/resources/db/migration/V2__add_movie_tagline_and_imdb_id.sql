@@ -1,0 +1,3 @@
+ALTER TABLE movies
+    ADD COLUMN tagline VARCHAR(255),
+    ADD COLUMN imdb_id VARCHAR(20);
